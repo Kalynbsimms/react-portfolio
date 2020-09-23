@@ -1,5 +1,5 @@
 .kalyn1 {
-    align-self:left;
+    /* align-self:left; */
     /* width: 250px;
     height: 250px; */
     /* margin-right: auto;
@@ -9,5 +9,10 @@
     margin-right: auto;
     width: 25%;
     float: left;
-    /* padding-inline-start: 1.5in; */
+    padding-inline-start: 25px;
+    padding-top: 25px;
+}
+
+.aboutFont{
+    font: cursive;
 }
