@@ -57,8 +57,8 @@ const Portfolio = (props) => {
                     }}>Check out the Code!</Button>
                 </CardBody>
             </Card>
-            <Card>
-                <CardImg top width="30%" src="/assets/256x186.svg" alt="Card image cap" />
+            <Card> 
+                <CardImg top width="30%" src={trActivity} alt="TrActivity" />
                 <CardBody>
                     <CardTitle>Project 3</CardTitle>
                     <CardSubtitle>CodeIn</CardSubtitle>

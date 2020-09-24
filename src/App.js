@@ -4,6 +4,7 @@ import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import  './App.css'
+import Footer from './components/Footer'
 
 import {
   Collapse,
@@ -56,7 +57,9 @@ const App = () => {
        </container>
       </div>
     </Router>
-    
+    <div>
+      <Footer />
+    </div>
     </>
   )
 }
